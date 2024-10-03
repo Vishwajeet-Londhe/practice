@@ -19,6 +19,13 @@
 // var f=a*b;
 // var g=a%b;
 
-for(var i=0; i<12; i++){
-    console.log(i);
-}
+// for(var i=0; i<12; i++){
+//     console.log(i);
+// }
+
+var arr=[1,2,3,4];
+
+arr.forEach(function(value, index){
+    console.log(value+2, index);
+});
+
