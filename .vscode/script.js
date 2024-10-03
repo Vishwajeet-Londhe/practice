@@ -25,7 +25,12 @@
 
 var arr=[1,2,3,4];
 
-arr.forEach(function(value, index){
-    console.log(value+2, index);
-});
+// arr.forEach(function(value, index){
+//     console.log(value+2, index);
+// });
 
+var obj={name:"vishwajeet",age:25}
+
+for(var value in obj){
+    console.log(value,obj[value]);
+}
