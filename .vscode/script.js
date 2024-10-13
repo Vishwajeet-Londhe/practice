@@ -51,6 +51,6 @@ gsap.from("h1", {
     delay: 0.5,
     duration: 1,
     onStart: function () {
-        $("h1").textillate({ in: { effect: "rollIn" } });
+        $("h1").textillate({ in: { effect: "fadeIn" } });
     },
 });
