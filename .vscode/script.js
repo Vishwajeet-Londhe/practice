@@ -23,14 +23,34 @@
 //     console.log(i);
 // }
 
-var arr=[1,2,3,4];
+var arr = [1, 2, 3, 4];
 
 // arr.forEach(function(value, index){
 //     console.log(value+2, index);
 // });
 
-var obj={name:"vishwajeet",age:25}
+// var obj={name:"vishwajeet",age:25}
 
-for(var value in obj){
-    console.log(value,obj[value]);
-}
+// for(var value in obj){
+//     console.log(value,obj[value]);
+// }
+
+// ASYNC
+
+// function getsongs(){
+//     setTimeout(function(){
+//         console.log("songs aa gaye")
+//     })
+// }
+
+// getsongs();
+
+gsap.from("h1", {
+    opacity: 0,
+    y: 50,
+    delay: 0.5,
+    duration: 1,
+    onStart: function () {
+        $("h1").textillate({ in: { effect: "rollIn" } });
+    },
+});

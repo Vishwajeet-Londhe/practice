@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 80px;
+    color: #ffffff;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-family: "Plain Light";
+    text-transform: uppercase;
+}
