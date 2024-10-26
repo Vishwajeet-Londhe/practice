@@ -61,10 +61,18 @@ var arr = [1, 2, 3, 4];
 
 // abcd.call("vishwajeet");
 
-var arr = [1,2,3,4]
+// var arr = [1,2,3,4]
 
-var newArr=arr.map(function(e){
-    return e*2
+// var newArr=arr.map(function(e){
+//     return e*2
+// })
+
+// console.log(newArr);
+
+var arr=[1,2,3,4]
+
+var newArr=arr.filter(function(elem){
+    return elem !==2
 })
 
 console.log(newArr);
