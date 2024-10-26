@@ -55,8 +55,16 @@ var arr = [1, 2, 3, 4];
 //     },
 // });
 
-function abcd(){
-    console.log(this);
-}
+// function abcd(){
+//     console.log(this);
+// }
 
-abcd.call("vishwajeet");
+// abcd.call("vishwajeet");
+
+var arr = [1,2,3,4]
+
+var newArr=arr.map(function(e){
+    return e*2
+})
+
+console.log(newArr);
