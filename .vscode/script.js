@@ -45,12 +45,18 @@ var arr = [1, 2, 3, 4];
 
 // getsongs();
 
-gsap.from("h1", {
-    opacity: 0,
-    y: 50,
-    delay: 0.5,
-    duration: 1,
-    onStart: function () {
-        $("h1").textillate({ in: { effect: "fadeIn" } });
-    },
-});
+// gsap.from("h1", {
+//     opacity: 0,
+//     y: 50,
+//     delay: 0.5,
+//     duration: 1,
+//     onStart: function () {
+//         $("h1").textillate({ in: { effect: "fadeIn" } });
+//     },
+// });
+
+function abcd(){
+    console.log(this);
+}
+
+abcd.call("vishwajeet");
